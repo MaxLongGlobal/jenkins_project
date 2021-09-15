@@ -67,4 +67,4 @@ class Test_all02():
     @allure.testcase("http://149.335.82.12:8080/zentao/testcase-view-5-1.html")  # 禅道用例连接地址
     def test_next(self):
         allure.attach.file(r"C:\Users\eng-maxlong\Desktop\qq.png", name="这是图片", attachment_type=allure.attachment_type.PNG)
-        assert 0
+        assert 1
