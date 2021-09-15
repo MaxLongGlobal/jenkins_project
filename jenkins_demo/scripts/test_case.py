@@ -4,7 +4,7 @@ import allure
 
 @allure.feature('Test_all01')
 class Test_all01():
-    @allure.step(title="allure通过注解方式完成内容的展示，setp表示测试步骤1...")
+    @allure.step(title="allure，setp表示测试步骤1...")
     def test_setup(self):
         print("我就是打酱油的setup")
 
@@ -12,7 +12,7 @@ class Test_all01():
     def test_run(self):
         allure.attach("自定义描述1", "描述内容，自定义")
         print("我要运行")
-        assert 0
+        assert 1
 
     def test_skip(self):
         print("我要跳过")
