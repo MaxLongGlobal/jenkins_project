@@ -57,7 +57,7 @@ class Test_all02():
     def test_error(self):
         allure.attach("自定义描述1", "我需要让他进行错误")
         print("我错误了")
-        assert 0
+        assert 1
 
     @allure.severity("critical")
     # @allure.epic("项目名称: 会所资源管理系统")
