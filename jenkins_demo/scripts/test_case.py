@@ -26,8 +26,8 @@ class Test_all01():
         assert 1
 
     @allure.severity("critical")
-    # @allure.epic("项目名称: 会所资源管理系统")
-    # @allure.feature("资源管理模块")
+    @allure.epic("项目名称: 会所资源管理系统")
+    @allure.feature("资源管理模块")
     @allure.story("用例的标题: 对会所资源进行增、删、改、查")
     @allure.issue("http://149.335.82.12:8080/zentao/bug-view-1.html")  # 禅道bug地址
     @allure.testcase("http://149.335.82.12:8080/zentao/testcase-view-5-1.html")  # 禅道用例连接地址
@@ -60,11 +60,11 @@ class Test_all02():
         assert 1
 
     @allure.severity("critical")
-    # @allure.epic("项目名称: 会所资源管理系统")
-    # @allure.feature("资源管理模块")
+    @allure.epic("项目名称: 会所资源管理系统")
+    @allure.feature("资源管理模块")
     @allure.story("用例的标题: 对会所资源进行增、删、改、查")
     @allure.issue("http://149.335.82.12:8080/zentao/bug-view-1.html")  # 禅道bug地址
     @allure.testcase("http://149.335.82.12:8080/zentao/testcase-view-5-1.html")  # 禅道用例连接地址
     def test_next(self):
         allure.attach.file(r"C:\Users\eng-maxlong\Desktop\qq.png", name="这是图片", attachment_type=allure.attachment_type.PNG)
-        assert 0
+        assert 1
